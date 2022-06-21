@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,200;0,300;0,700;0,800;1,200&family=Poppins:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.drobdown-box{
+    display: none;
+    background-color: white;
+ 
+    z-index: 1;
+}
+.drobdown:hover + .drobdown-box{
+    display: block;
+   top: 70px;
+    position: absolute;
+    left: 28%;
+    padding: 5px ;
+  
+    
+}
+.drobdown-box a{
+    display: block;
+    margin-bottom: 25px;
+ 
+
+    
+}
+.drobdown-box:hover a{
+    
+    background-color: yellow;
+}
+
+.div1{
+    width: 65%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+li {
+     list-style-type: none;
+     
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+}
+a:hover{
+         color:#6653E0; ;
+}
+.free{
+        width:160px;
+        height: 40px;
+        border: none;
+        color: white;
+        background-color: #6653E0;
+        border-radius: 10px;
+        font-size: 15px;
+        box-shadow: 0 10px 20px #C6C6C6;
+}
+.free:hover{
+    background-color: #DDDDDD;
+    color:#6653E0 ;
+}
+.flex-i{
+    display: flex;
+    justify-content: space-between;
+    width: 6%;
+  
+}
+i{
+    color:#6653E0 ;
+   font-size: 25px;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: #F7FDFC;
+    justify-content: center;
+    margin-top: 100px;
+align-items: center;
+}
+.header-text{
+   
+    width: 37%;
+}
+header img{
+    width: 38%;
+  
+      margin-right: 50px;
+}
+header h1{
+    color: #6653E0;
+    font-size: 50px;
+    font-family: "Montserrat"!important;
+    margin-bottom: 30px;
+  
+   
+}
+.header-h3{
+    margin-bottom: 28px;
+    width: 86%;
+     font-size: 30px;
+ line-height: 45px;
+ font-family: "Montserrat"!important;
+    }
+    .flex-btn {
+       
+        width: 87%;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    
+    .btn{
+       border: none;
+        width: 48%;
+        height: 43px;
+        color: white;
+        background-color: #2DC598;
+        font-size: 19px;
+        border-radius: 10px;
+        box-shadow:0 5px 5px 1px #C4C8C8 ;
+        
+    }
+    .btn:hover{
+        color: #2DC598;
+        background-color: #CAF4E8;
+    }
+    .btn-free{
+        width:87%;
+        height: 40px;
+        border: none;
+        color: white;
+        background-color: #6653E0;
+        border-radius: 10px;
+        font-size: 15px;
+        box-shadow: 0 5px 5px 1px #C6C6C6;
+}
+.btn-free:hover{
+    background-color: #DDDDDD;
+    color:#6653E0 ;
+}
+section{
+    width: 76%;
+    display: flex;
+   margin: 50px auto;
+}
+.section-h1{
+   font-size: 26px;
+    font-family:sans-serif;
+    margin-bottom: 25px;
+}
+.section-p{
+    font-size: 16px;
+    line-height: 22px;
+   
+    width: 95%;
+    font-family: "Poppins"!important;
+}
+.flex-big{
+    width: 100%;
+    height: 1500px;
+    background-color: #F7FDFC;
+    padding-top: 15px;
+}
+.big-h1{
+    margin-left: 220px;
+    font-family: "Montserrat"!important;
+    margin-bottom: 25px;
+}
+.flex-img-text{
+    display: flex;
+    justify-content: center;
+    width: 55%;
+   
+    margin: 0px auto;
+}
+ .person{
+     width: 51%;
+     height:355px;
+    box-shadow: +3px 3px 10px 5px  #DEE3E2;
+   
+ } 
+ .person2{
+    width: 55%;
+    height:355px;
+   box-shadow: +3px 3px 10px 5px  #DEE3E2;
+  
+}
+.person4{
+    width: 49.3%;
+    height:355px;
+   box-shadow: +3px 3px 10px 5px  #DEE3E2;
+  
+}
+ .row-img{
+     width: 100%;
+     height: 130px;
+    background-color: #2B2B2B;
+ }
+ .dizayn{
+     width: 50%;
+     height: auto;
+     margin: 15px 0 0 52px;
+
+          
+ }
+.cyan-text{
+    width: 27%;
+    
+    
+   
+}
+.flex-text{
+    width: 26%;
+    height:223px;
+   
+    padding: 12px 10px 3px 15px;
+    font-size:11px;
+    font-family: "Poppins"!important;
+    box-shadow: +3px 3px 10px 5px  #DEE3E2 ;
+}
+.small-text{
+
+             background-color: #2DC799;
+             height:225px;
+             color: white;
+             padding-left: 10px;
+}
+.small-text h1{
+        font-size: 35px;
+     padding-top: 10px;
+        margin-bottom: 25px;
+       font-weight:500;
+}
+.ceo-text{
+    font-size: 19px;
+    margin-bottom: 22px;
+}
+.ceo-text2{
+    font-size: 19px;
+    margin:40px 0 50px 0px;
+}
+.ceo-text3{
+    font-size: 19px;
+    margin:28px 0 50px 0px;
+}
+.text-black{
+    font-size: 18px;
+    color: black;
+    font-weight:500;
+}
+.flex3{
+    display: flex;
+
+    width: 80%;
+    margin: 40px auto;
+   
+}
+.flex4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 72%;
+
+    margin-bottom: 12px;
+}
+.moti{
+    width: 80%;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: "sans-serif "!important;
+    
+
+}
+
+.fa-brands{
+    width: 50px;
+    height: 50px;
+    
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 100%;
+    cursor: pointer;
+       margin: 15px 35px 0 0;
+       padding: 12px 0 0 12px;
+     color: white;
+     background-color: #5243B3;
+}
+.fa-brands:hover{
+    background-color: #C6C6C6;
+}
+.about1{
+    width: 30%;
+}
+.about{
+  
+    width: 18%;
+    margin-top: 15px
+    
+}
+.about p{
+    line-height: 10px;
+    padding-top: 23px;
+}
+.about2{
+    width: 30%;
+    margin-top: 15px;
+}
+.be{
+    width:86.7%;
+    
+    font-size: 17px;
+    margin: 15px 0;
+    line-height: 26px;
+}
+h3{
+    font-size: 22px;
+}
+.fform{
+    display: flex;
+   
+}
+.footerinput{
+    width: 80%;
+}
+input:active{
+    border: 2px solid #5243B3;
+}
+.send{
+    
+       width: 100px;
+       height: 45px;
+       color: white;
+       background-color: #5243B3;
+       font-size: 20px;
+     
+       margin-left: -10px;
+       border: none;
+       border-top-right-radius:10px;
+       border-bottom-right-radius:10px;
+}
+.flex5{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        width:39%;
+        margin: 15px auto;
+}
+.flex5 p{
+          padding-right:12px ;
+          padding-left: 8px;
+          
+}
+.rigt{
+    height: 19px;
+      border-right: 2px solid #5243B3 ;
+}
+
